@@ -1,0 +1,72 @@
+/* index.css: estilos generales */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* fondo con gradiente */
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+p {
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+/* Contenedor principal */
+.container {
+  background: rgba(255, 255, 255, 0.1); /* un vidrio translúcido */
+  backdrop-filter: blur(10px);
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  text-align: center;
+  width: 350px;
+}
+
+/* Inputs */
+input[type="number"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 12px 0;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Resultados */
+.result {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}

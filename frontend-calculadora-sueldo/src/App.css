@@ -1,0 +1,62 @@
+/* App.css */
+
+/* Contenedor general */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Inputs */
+input[type="number"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 220px;
+  margin-bottom: 15px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input[type="number"]:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Botones */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Resultados */
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
